@@ -4,7 +4,7 @@ SQL DATA SOURCE
 1. [SQL Sample Database](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-sample-database)
 2. [The Database Tables](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-sample-database)
 3. [HR Database Dependency Diagram](https://github.com/avacabillan/SQL-DATA-SOURCE#bikestores-dependency-diagram)
-## 4.  [SQL QUERIES]
+4.  [SQL QUERIES](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#4--sql-queries)
     * [SQL CONCAT](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#sql-concat)
     * [SQL INNER JOIN]
     * [SQL LEFT JOIN]
@@ -25,5 +25,26 @@ SQL DATA SOURCE
     * [SQL CLONE TABLE]
     * [SQL NOT IN]
     * [SQL NTILE]
+    
 #### SQL CONCAT
+#### SQL INNER JOIN
+#### SQL LEFT JOIN
+#### SQL RIGHT JOIN
+#### SQL ANY
+#### SQL GROUP BY
+#### SQL LIKE
+#### SQL ORDER BY
+#### SQL UNION ALL
+#### SQL TRIGGERS
+#### SQL LIMIT
+#### SQL ALL
+#### SQL HAVING
+#### SQL REPLACE
+#### SQL RANK
+#### SQL DISTINCT
+#### SQL COUNT
+#### SQL CLONE TABLE
+#### SQL NOT IN
+#### SQL NTILE
+
 
