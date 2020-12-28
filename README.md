@@ -1,13 +1,9 @@
 # SQL-DATA-SOURCE
 SQL DATA SOURCE
 ## CONTENTS
-# SQL Sample Database
-# Database Tables
-# BikeStores Dependency Diagram
-## CONTENTS
-1. [SQL Sample Database]
-2. [The Database Tables]
-3. [HR Database Dependency Diagram]
+1. [SQL Sample Database](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-sample-database)
+2. [The Database Tables]https://github.com/avacabillan/SQL-DATA-SOURCE#database-tables
+3. [HR Database Dependency Diagram]https://github.com/avacabillan/SQL-DATA-SOURCE#bikestores-dependency-diagram
 4. [SQL QUERIES]
     * [SQL CONCAT]
     * [SQL INNER JOIN]
