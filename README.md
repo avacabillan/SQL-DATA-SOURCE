@@ -32,14 +32,23 @@ This SQL Sample Database was called Bikestores, it has  two schema the sales and
 ### Database Tables
 Below are the tables that can be found in those schemas:
 1.`sales.stores` includes the store’s information. 
+
 2.`sales.staffs` stores the essential information of staffs. 
+
 3.`sales.customers` table stores customer’s information.
-4.`sales.orders` stores the sales order’s header information. 
-5.`sales.order_items` stores the line items of a sales order. 
+
+4.`sales.orders` stores the sales order’s header information.
+
+5.`sales.order_items` stores the line items of a sales order.
+
 6.`production.categories` table stores the bike’s categories. 
+
 7.`production.brands` table stores the brand’s information of bikes.
+
 8.`production.products` table stores the product’s information. 
+
 9.`production.stocks` table stores the inventory information. 
+
 
 ### BikeStores Database Dependency Diagram
 ![image](https://user-images.githubusercontent.com/73097784/103213257-155fb980-4948-11eb-817c-fba33b0513a2.png)
