@@ -4,7 +4,7 @@ SQL DATA SOURCE
 1. [SQL Sample Database](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-sample-database)
 2. [The Database Tables](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-sample-database)
 3. [HR Database Dependency Diagram](https://github.com/avacabillan/SQL-DATA-SOURCE#bikestores-dependency-diagram)
-4. [SQL QUERIES]
+## 4.  [SQL QUERIES]
     * [SQL CONCAT](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#sql-concat)
     * [SQL INNER JOIN]
     * [SQL LEFT JOIN]
