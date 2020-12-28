@@ -25,4 +25,5 @@ SQL DATA SOURCE
     * [SQL CLONE TABLE]
     * [SQL NOT IN]
     * [SQL NTILE]
+#### SQL CONCAT
 
