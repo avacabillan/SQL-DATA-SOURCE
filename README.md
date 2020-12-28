@@ -30,8 +30,8 @@ SQL DATA SOURCE
 This SQL Sample Database was called Bikestores, it has  two schema the sales and production schema. The sales schema contains five tables that store the information of the staff, orders, customers, item ordered and the stores. The second schema is the production which consist of four tables it includes the categories, products, stocks, and brands.These is where the monitoring of the product takes place, the adding and reducing of product can be seen in this schema. These two schemas can be useful because it has been normalized, tables connected to each other. Production relies on the sales because the production will stand as the inventory, the schema will be shown below.
 ![image](https://user-images.githubusercontent.com/73097784/103212251-48547e00-4945-11eb-9df6-3729158479bd.png)
 ## Database Tables
-Table sales.stores
--The  sales.stores table includes the store’s information. 
+<b>1.Table sales.stores</b>
+The  sales.stores table includes the store’s information. </p>
 Table sales.staffs
 -The  sales.staffs table stores the essential information of staffs 
 Table sales.customers
