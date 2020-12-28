@@ -30,24 +30,19 @@ SQL DATA SOURCE
 This SQL Sample Database was called Bikestores, it has  two schema the sales and production schema. The sales schema contains five tables that store the information of the staff, orders, customers, item ordered and the stores. The second schema is the production which consist of four tables it includes the categories, products, stocks, and brands.These is where the monitoring of the product takes place, the adding and reducing of product can be seen in this schema. These two schemas can be useful because it has been normalized, tables connected to each other. Production relies on the sales because the production will stand as the inventory, the schema will be shown below.
 ![image](https://user-images.githubusercontent.com/73097784/103212251-48547e00-4945-11eb-9df6-3729158479bd.png)
 ## Database Tables
-<b>Table sales.stores</b>
- includes the store’s information. 
-<b>Table sales.staffs</b>
- stores the essential information of staffs. 
-<b>Table sales.customers</b>
- table stores customer’s information.
-<b>Table sales.orders</b>
- stores the sales order’s header information. 
-<b>Table sales.order_items</b>
- stores the line items of a sales order. 
-<b>Table production.categories</b>
- table stores the bike’s categories. 
-<b>Table production.brands</b>
- table stores the brand’s information of bikes.
-<b>Table production.products</b>
- table stores the product’s information. 
-<b>Table production.stocks</b>
- table stores the inventory information. 
+1.`sales.stores` includes the store’s information. 
+2.`sales.staffs` stores the essential information of staffs. 
+3.`sales.customers` table stores customer’s information.
+4.`sales.orders` stores the sales order’s header information. 
+5.`sales.order_items` stores the line items of a sales order. 
+6.`production.categories` table stores the bike’s categories. 
+7.`production.brands` table stores the brand’s information of bikes.
+8.`production.products` table stores the product’s information. 
+9.`production.stocks` table stores the inventory information. 
+
+### BikeStores Database Dependency Diagram
+![image](https://user-images.githubusercontent.com/73097784/103213257-155fb980-4948-11eb-817c-fba33b0513a2.png)
+
 
     
 #### SQL CONCAT
