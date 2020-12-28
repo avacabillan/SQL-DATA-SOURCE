@@ -25,6 +25,30 @@ SQL DATA SOURCE
     * [SQL CLONE TABLE](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#sql-clone-table)
     * [SQL NOT IN](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#sql-not-in)
     * [SQL NTILE](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#sql-ntile)
+
+## SQL Sample Database
+This SQL Sample Database was called Bikestores, it has  two schema the sales and production schema. The sales schema contains five tables that store the information of the staff, orders, customers, item ordered and the stores. The second schema is the production which consist of four tables it includes the categories, products, stocks, and brands.These is where the monitoring of the product takes place, the adding and reducing of product can be seen in this schema. These two schemas can be useful because it has been normalized, tables connected to each other. Production relies on the sales because the production will stand as the inventory, the schema will be shown below.
+![image](https://user-images.githubusercontent.com/73097784/103212251-48547e00-4945-11eb-9df6-3729158479bd.png)
+## Database Tables
+Table sales.stores
+-The  sales.stores table includes the store’s information. 
+Table sales.staffs
+-The  sales.staffs table stores the essential information of staffs 
+Table sales.customers
+-The  sales.customers table stores customer’s information 
+Table sales.orders
+-The sales.orders table stores the sales order’s header information 
+Table sales.order_items
+-The sales.order_items table stores the line items of a sales order. 
+Table production.categories
+-The production.categories table stores the bike’s categories 
+Table production.brands
+-The  production.brands table stores the brand’s information of bikes
+Table production.products
+-The production.products table stores the product’s information 
+Table production.stocks
+-The production.stocks table stores the inventory information 
+
     
 #### SQL CONCAT
 #### SQL INNER JOIN
