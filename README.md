@@ -57,6 +57,12 @@ Below are the tables that can be found in those schemas:
 
     
 #### SQL CONCAT
+* `SQL CONCAT` combine the two or more strings to the another column.
+``` 
+   CONCAT.sql
+```
+```Importance: can be useful for combining datas.```
+  ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-concat)
 #### SQL INNER JOIN
 #### SQL LEFT JOIN
 #### SQL RIGHT JOIN
