@@ -4,9 +4,9 @@ SQL DATA SOURCE
 # SQL Sample Database
 # Database Tables
 # BikeStores Dependency Diagram
-# SQL Queries
-*CONCAT
-*INNER JOIN
+**SQL Queries**
+- CONCAT
+- INNER JOIN
 *LEFT JOIN
 *RIGHT JOIN
 *ANY
