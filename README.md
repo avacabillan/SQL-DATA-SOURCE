@@ -31,6 +31,7 @@ This SQL Sample Database was called Bikestores, it has  two schema the sales and
 ![image](https://user-images.githubusercontent.com/73097784/103212251-48547e00-4945-11eb-9df6-3729158479bd.png)
 ### Database Tables
 Below are the tables that can be found in those schemas:
+
 1.`sales.stores` includes the store’s information. 
 
 2.`sales.staffs` stores the essential information of staffs. 
