@@ -64,7 +64,21 @@ Below are the tables that can be found in those schemas:
 ```Importance: can be useful for combining datas.```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-concat)
 #### SQL INNER JOIN
+* `SQL INNER JOIN` form a set of rows in a temporary table for the matched values by SQL inner join.
+``` 
+   INNERJOIN.sql
+```
+```Importance: can be useful If there are matching values in the two tables.```
+  ##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-inner-join)
 #### SQL LEFT JOIN
+* `SQL LEFT JOIN` returns all records from the left table (table1), and the matched records from the right table (table2)
+the unmatched will displayed as a null value. 
+``` 
+   LEFTJOIN.sql
+```
+```Importance:  can be used in cases when we want all the data from one table and only matching data from the other table.```
+  ##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-left-join)
+
 #### SQL RIGHT JOIN
 #### SQL ANY
 #### SQL GROUP BY
