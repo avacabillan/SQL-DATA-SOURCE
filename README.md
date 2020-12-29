@@ -78,15 +78,63 @@ the unmatched will displayed as a null value.
 ```
 ```Importance:  can be used in cases when we want all the data from one table and only matching data from the other table.```
   ##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-left-join)
-
 #### SQL RIGHT JOIN
+* `SQL RIGHT JOIN` gets all the rows from the Right table and common rows of both tables. 
+``` 
+   RIGHTJOIN.sql
+```
+```Importance:  it consider all rows from the right table and common from both tables..```
+  ##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-right-join)
 #### SQL ANY
+* `SQL ANY`  returns true if any of the subquery values meet the condition. 
+``` 
+   ANY.sql
+```
+```Importance: it is used primarily to compare the values of a column with values from a subquery.```
+  ##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-any)
 #### SQL GROUP BY
+* `SQL GROUP BY`    groups rows that have the same values into summary rows. 
+``` 
+   GROUPBY.sql
+```
+```Importance: can be use with several grouping and aggregate functions.```
+  ##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-group-by)
 #### SQL LIKE
+* `SQL LIKE`    has a two-wildcard match, the "%"Matches any string with zero or more characters ans "_" which Matches any single character.
+``` 
+   LIKE.sql
+```
+```Importance: can be use to search for a particular pattern from the table rows and return the columns, which matches the pattern.```
+  ##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-like)
 #### SQL ORDER BY
+* `SQL ORDER BY`  sorts on the basis of one or more columns. 
+``` 
+   ORDERBY.sql
+```
+```Importance: helps to categorize datas in either ascending or descending order, depending on the columns of tables.```
+  ##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-order-by)
 #### SQL UNION ALL
+* `SQL UNION ALL`  used as a combinator to combine results from two or more SELECT statements.
+However, it returns duplicate records in the final result set. 
+``` 
+  UNIONALL.sql
+```
+```Importance: used to combine results from two or more SELECT queries into a single result set.```
+  ##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-union-all)
 #### SQL TRIGGERS
+* `SQL TRIGGERS`  a special type of stored procedure in a database which gets executed automatically whenever special events happen such as DDL and DML.
+``` 
+  TRIGGERS.sql
+```
+```Importance: helpful to automaticaly execute the desired output.```
+  ##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-triggers)
 #### SQL LIMIT
+* `SQL LIMIT` 
+``` 
+  LIMIT.sql
+```
+```Importance: helpful to automaticaly execute the desired output.```
+##### Sample Output [here](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-limit)
 #### SQL ALL
 #### SQL HAVING
 #### SQL REPLACE
@@ -94,6 +142,14 @@ the unmatched will displayed as a null value.
 #### SQL DISTINCT
 #### SQL COUNT
 #### SQL CLONE TABLE
+#### SQL STORED PROCEDURE
+* `SQL STORED PROCEDURE` once the stored procedure was created we just need to call the procedure to make use of it. 
+``` 
+  STOREDPROCEDURE.sql
+```
+```Importance: useful to perform particular operation over and over again. ```
+  ##### Sample Output [here]
+
 #### SQL NOT IN
 #### SQL NTILE
 
