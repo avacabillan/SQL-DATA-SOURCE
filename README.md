@@ -23,6 +23,7 @@ SQL DATA SOURCE
     * [SQL DISTINCT](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#sql-distinct)
     * [SQL COUNT](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#sql-count)
     * [SQL CLONE TABLE](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#sql-clone-table)
+    *[SQL STORED PROCEDURE](https://github.com/avacabillan/SQL-DATA-SOURCE#sql-stored-procedure)
     * [SQL NOT IN](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#sql-not-in)
     * [SQL NTILE](https://github.com/avacabillan/SQL-DATA-SOURCE/blob/main/README.md#sql-ntile)
 
