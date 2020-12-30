@@ -29,6 +29,7 @@ SQL DATA SOURCE
 
 ## SQL Sample Database
 This SQL Sample Database was called Bikestores, it has  two schema the sales and production schema. The sales schema contains five tables that store the information of the staff, orders, customers, item ordered and the stores. The second schema is the production which consist of four tables it includes the categories, products, stocks, and brands.These is where the monitoring of the product takes place, the adding and reducing of product can be seen in this schema. These two schemas can be useful because it has been normalized, tables connected to each other. Production relies on the sales because the production will stand as the inventory, the schema will be shown below.
+
 ![image](https://user-images.githubusercontent.com/73097784/103212251-48547e00-4945-11eb-9df6-3729158479bd.png)
 ### Database Tables
 Below are the tables that can be found in those schemas:
@@ -62,14 +63,14 @@ Below are the tables that can be found in those schemas:
 ``` 
    CONCAT.sql
 ```
-```Importance: can be useful for combining datas.```
+```Significance: can be useful for combining datas.```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-concat)
 #### SQL INNER JOIN
 * `SQL INNER JOIN` form a set of rows in a temporary table for the matched values by SQL inner join.
 ``` 
    INNERJOIN.sql
 ```
-```Importance: can be useful If there are matching values in the two tables.```
+```Significance: can be useful If there are matching values in the two tables.```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-inner-join)
 #### SQL LEFT JOIN
 * `SQL LEFT JOIN` returns all records from the left table (table1), and the matched records from the right table (table2)
@@ -77,42 +78,42 @@ the unmatched will displayed as a null value.
 ``` 
    LEFTJOIN.sql
 ```
-```Importance:  can be used in cases when we want all the data from one table and only matching data from the other table.```
+```Significance:  can be used in cases when we want all the data from one table and only matching data from the other table.```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-left-join)
 #### SQL RIGHT JOIN
 * `SQL RIGHT JOIN` gets all the rows from the Right table and common rows of both tables. 
 ``` 
    RIGHTJOIN.sql
 ```
-```Importance:  it consider all rows from the right table and common from both tables..```
+```Significance:  it consider all rows from the right table and common from both tables..```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-right-join)
 #### SQL ANY
 * `SQL ANY`  returns true if any of the subquery values meet the condition. 
 ``` 
    ANY.sql
 ```
-```Importance: it is used primarily to compare the values of a column with values from a subquery.```
+```Significance: it is used primarily to compare the values of a column with values from a subquery.```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-any)
 #### SQL GROUP BY
 * `SQL GROUP BY`    groups rows that have the same values into summary rows. 
 ``` 
    GROUPBY.sql
 ```
-```Importance: can be use with several grouping and aggregate functions.```
+```Significance: can be use with several grouping and aggregate functions.```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-group-by)
 #### SQL LIKE
 * `SQL LIKE`    has a two-wildcard match, the "%"Matches any string with zero or more characters ans "_" which Matches any single character.
 ``` 
    LIKE.sql
 ```
-```Importance: can be use to search for a particular pattern from the table rows and return the columns, which matches the pattern.```
+```Significance: can be use to search for a particular pattern from the table rows and return the columns, which matches the pattern.```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-like)
 #### SQL ORDER BY
 * `SQL ORDER BY`  sorts on the basis of one or more columns. 
 ``` 
    ORDERBY.sql
 ```
-```Importance: helps to categorize datas in either ascending or descending order, depending on the columns of tables.```
+```Significance: helps to categorize datas in either ascending or descending order, depending on the columns of tables.```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-order-by)
 #### SQL UNION ALL
 * `SQL UNION ALL`  used as a combinator to combine results from two or more SELECT statements.
@@ -120,77 +121,77 @@ However, it returns duplicate records in the final result set.
 ``` 
   UNIONALL.sql
 ```
-```Importance: used to combine results from two or more SELECT queries into a single result set.```
+```Significance: used to combine results from two or more SELECT queries into a single result set.```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-union-all)
 #### SQL TRIGGERS
 * `SQL TRIGGERS`  a special type of stored procedure in a database which gets executed automatically whenever special events happen such as DDL and DML.
 ``` 
   TRIGGERS.sql
 ```
-```Importance: helpful to automaticaly execute the desired output.```
+```Significance: helpful to automaticaly execute the desired output.```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-triggers)
 #### SQL LIMIT
 * `SQL LIMIT` a clause use to select a limited number of records.
 ``` 
   LIMIT.sql
 ```
-```Importance: can  be use to select only specific count of output.```
+```Significance: can  be use to select only specific count of output.```
 ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-limit)
 #### SQL ALL
 * `SQL ALL` used to extract all tuples or records of the select statement.
 ``` 
   ALL.sql
 ```
-```Importance: helpful to make a comparison of a value with each and every data in another set of output from a subquery.```
+```Significance: helpful to make a comparison of a value with each and every data in another set of output from a subquery.```
 ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-all)
 #### SQL HAVING
 * `SQL HAVING` functionality that helps in applying the filters on the expressions. 
 ``` 
   HAVING.sql
 ```
-```Importance: used to apply restrictions and filters on the grouped expressions in complex queries that are generally used for reporting purposes using the SELECT query statement in MySQL.```
+```Significance: used to apply restrictions and filters on the grouped expressions in complex queries that are generally used for reporting purposes using the SELECT query statement in MySQL.```
 ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-having)
 #### SQL REPLACE
 * `SQL REPLACE` function used to replace all existences of a substring within the main string to result in a new substring. 
 ``` 
   REPLACE.sql
 ```
-```Importance: can be useful to change values from old to new, also useful for updating datas.```
+```Significance: can be useful to change values from old to new, also useful for updating datas.```
 ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-replace)
 #### SQL RANK
 * `SQL RANK` defined within its partition, and this rank will have gaps in-between. 
 ``` 
   RANK.sql
 ```
-```Importance: if we need to get the rank of a particular with a certain category, it is easy to capture with the RANK() function.```
+```Significance: if we need to get the rank of a particular with a certain category, it is easy to capture with the RANK() function.```
 ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-rank)
 #### SQL CONVERT
 * `SQL CONVERT` function converts a value into a specified datatype. 
 ``` 
   CONVERT.sql
 ```
-```Importance: if we need to change the specific datatype it is much easier by using this function.```
+```Significance: if we need to change the specific datatype it is much easier by using this function.```
 ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-convert)
 #### SQL COUNT
 * `SQL COUNT` function returns the number of rows that matches a specified criterion. 
 ``` 
   COUNT.sql
 ```
-```Importance: it helps to easily count the datas within the column but it does not count the NULL values.```
+```Significance: it helps to easily count the datas within the column but it does not count the NULL values.```
 ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-count)
 #### SQL CLONE TABLE
 * `SQL CLONE TABLE` allow copying an existing table to a new one either in the same database or for another one.
 ``` 
   CLONETABLE.sql
 ```
-```Importance: helps to  easily copy the table by not repeating the steps such as creating another table and inserting data,  clone table is beneficial to create a replica of data.```
+```Significance: helps to  easily copy the table by not repeating the steps such as creating another table and inserting data,  clone table is beneficial to create a replica of data.```
 ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-clone-table)
 #### SQL STORED PROCEDURE
 * `SQL STORED PROCEDURE` once the stored procedure was created we just need to call the procedure to make use of it. 
 ``` 
   STOREDPROCEDURE.sql
 ```
-```Importance: useful to perform particular operation over and over again. ```
+```Significance: useful to perform particular operation over and over again. ```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-stored-procedure)
 
 #### SQL NOT IN
@@ -198,13 +199,13 @@ However, it returns duplicate records in the final result set.
 ``` 
   NOTIN.sql
 ```
-```Importance: used to select all records or rows from the table that do not matches with the values passed in the NOT IN function. ```
+```Significance: used to select all records or rows from the table that do not matches with the values passed in the NOT IN function. ```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-not-in)
 #### SQL NTILE()
 * `SQL NTILE()` can be considered as placing 10 letters in three envelopes.  
 ``` 
   NTILE.sql
 ```
-```Importance: used to divide sorted rows of a partition into a specified number of equal size buckets or groups. ```
+```Significance: used to divide sorted rows of a partition into a specified number of equal size buckets or groups. ```
   ##### Sample Output [here](https://github.com/avacabillan/OUTPUTS#sql-ntile)
 
